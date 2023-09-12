@@ -1,0 +1,38 @@
+Creare tabelle del database "Supermarket" (Ho usato MySQL). Ho usato Insomina che gestire le chiamate HTTP quali (POST, PUT, DELETE).
+
+- vendite
+	- id
+	- codice
+	- data
+	- id cliente
+		
+- dettagli vendite
+	- id
+	- id vendita
+	- id prodotto	
+	- quantita
+
+- cliente
+	-id
+	-nome
+	-cognome
+	-email
+
+-prodotto
+	-id
+	-nome
+	-descrizione
+
+----------------
+
+
+- Effettuare il C.R.U.D. (Create, Read, Update, Delete);
+
+- Effettuare Join tra:
+
+	-idcliente (vendite) e id (cliente)
+	-idvendite (dettagli vendite) e id (vendite)
+	-idprodotto (dettagli vendite) e id (prodotto)
+
+
+
